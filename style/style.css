@@ -15,6 +15,16 @@ body{
 	font-family: 'Archivo Narrow', sans-serif;
 	
 }
+.jumbotron{
+	
+	padding: 20px;
+	background-color: white;
+}
+.bg-theme{
+	
+	background-color: var(--t1-colour);
+	
+}
 a{
 	
 	color: var(--t1-colour);
@@ -133,11 +143,6 @@ a{
 	
 	margin-bottom: 40px;
 	
-}
-.jumbotron{
-	
-	padding: 20px;
-	background-color: white;
 }
 .news-header{
 	
@@ -323,5 +328,30 @@ progress::-moz-progress-bar {
 	
 	color: black;
 	font-size: 30px;
+	
+}
+.about-header{
+	
+	text-align: center;
+	padding: 30px;
+	color: var(--t1-colour);
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+  	-webkit-text-stroke-color: black;
+}
+#me-pic{
+	
+	border-radius: 10px;
+	margin-bottom: 10px;
+	
+}
+#about-p{
+	
+	font-size: 18px;
+	
+}
+#social-links-about{
+	
+	font-size: 15px;
 	
 }
