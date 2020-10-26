@@ -355,3 +355,12 @@ progress::-moz-progress-bar {
 	font-size: 15px;
 	
 }
+.contact-header{
+	
+	text-align: center;
+	padding: 30px;
+	color: white;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+  	-webkit-text-stroke-color: black;
+}
