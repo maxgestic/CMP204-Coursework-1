@@ -9,6 +9,7 @@ $(document).ready(function() {
 				$('.navbar').removeClass('bg-yellow');
 			}
 		}
+			
 		else{
 			if($(this).scrollTop() > 799) {
 				$('.navbar').addClass('bg-yellow');
