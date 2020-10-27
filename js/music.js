@@ -12,6 +12,11 @@ $(document).ready(function() {
 
 
 $('#song-1-play').on('click', function() {
+	$('.modal').modal({
+		escapeClose: false,
+		clickClose: true,
+		showClose: false
+	});
     document.getElementById('song-1').play();
 	document.getElementById('song-2').pause();
 	document.getElementById('song-3').pause();
@@ -37,6 +42,11 @@ $('#song-1-minus').on('click', function() {
 
 
 $('#song-2-play').on('click', function() {
+	$('.modal').modal({
+		escapeClose: false,
+		clickClose: true,
+		showClose: false
+	});
     document.getElementById('song-2').play();
 	document.getElementById('song-1').pause();
 	document.getElementById('song-3').pause();
@@ -63,6 +73,11 @@ $('#song-2-minus').on('click', function() {
 
 
 $('#song-3-play').on('click', function() {
+	$('.modal').modal({
+		escapeClose: false,
+		clickClose: true,
+		showClose: false
+	});
     document.getElementById('song-3').play();
 	document.getElementById('song-1').pause();
 	document.getElementById('song-2').pause();
@@ -87,6 +102,11 @@ $('#song-3-minus').on('click', function() {
 
 
 $('#song-4-play').on('click', function() {
+	$('.modal').modal({
+		escapeClose: false,
+		clickClose: true,
+		showClose: false
+	});
     document.getElementById('song-4').play();
 	document.getElementById('song-1').pause();
 	document.getElementById('song-2').pause();
@@ -112,6 +132,11 @@ $('#song-4-minus').on('click', function() {
 
 
 $('#song-5-play').on('click', function() {
+	$('.modal').modal({
+		escapeClose: false,
+		clickClose: true,
+		showClose: false
+	});
     document.getElementById('song-5').play();
 	document.getElementById('song-1').pause();
 	document.getElementById('song-2').pause();
@@ -138,6 +163,11 @@ $('#song-5-minus').on('click', function() {
 
 
 $('#song-6-play').on('click', function() {
+	$('.modal').modal({
+		escapeClose: false,
+		clickClose: true,
+		showClose: false
+	});
     document.getElementById('song-6').play();
 	document.getElementById('song-1').pause();
 	document.getElementById('song-2').pause();

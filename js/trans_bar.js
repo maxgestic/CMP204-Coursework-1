@@ -1,4 +1,3 @@
-// Transparent NavBar Script from https://codepen.io/sonorangirl/pen/XmRBjq
 $(document).ready(function() {
 	
         $(window).scroll(function() {
